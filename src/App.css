@@ -1,0 +1,96 @@
+:root {
+  --background-colour: #f5f5f5;
+  --btn-colour: #f5f5f5;
+  --btn-text-colour: #54230D;
+  --text-colour: #54230D;
+  --brown-highlight: rgb(188, 87, 42, 100%);
+  --purple-highlight: rgb(106, 123, 235, 100%);
+}
+
+/* ignore below for now: */
+[data-theme='dark'] { 
+  --background-colour: #222;
+  --btn-colour: #fff;
+  --btn-text-colour: #222;
+  --project-card-bg: #fff;
+  --text-colour: #fff;
+  --form-text-colour: #fff;
+  --footer-tet-colour: #bbb;
+}
+
+body {
+  background-color: var(--background-colour);
+  /* display: flex;
+  justify-content: center; */
+}
+
+h1,
+h2,
+h3,
+p {
+  color: var(--text-colour);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Ledger", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2,
+h3,
+p {
+  font-family: "Inter", sans-serif;
+}
+
+h2,
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.sectionTitle {
+  margin-bottom: 30px;
+}
+
+.hover {
+  cursor: pointer;
+}
+/* 
+@media (width >= 800px) {
+  #root {
+    gap: 100px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2,
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 20px;
+  }
+
+  .sectionTitle {
+    margin-bottom: 60px;
+  }
+}
+
+@media (width >= 1400px) {
+  #root {
+    gap: 200px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .sectionTitle {
+    margin-bottom: 75px;
+  }
+} */
