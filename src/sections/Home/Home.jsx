@@ -1,6 +1,7 @@
 import ValueCard from '../../common/ValueCard';
 import styles from './HomeStyles.module.css'; 
 import leaf from '../../assets/leafIconSvg.svg';
+import lightbulbIconSvg from '../../assets/lightbulbIconSvg.svg';
 
 function Home() {
   return (
@@ -18,7 +19,7 @@ Be curious, broaden your horizons and you might find something you didn’t know
         description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."}
         />
         <ValueCard 
-        img={leaf} 
+        img={lightbulbIconSvg}
         title={"Versatility"} 
         description={"Nam egestas lectus vel ante auctor dictum. Donec blandit, metus in dapibus aliquet, lorem lorem viverra ex, ac ullamcorper urna ante quis felis."}
         />

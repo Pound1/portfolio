@@ -1,0 +1,32 @@
+.neumorphicButton {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+
+    object-fit: scale-down;
+
+    border-radius: 30px;     
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25), -4px -4px 8px rgba(255, 255, 255, 0.7);
+
+    margin: 20px;
+    padding: 10px;
+
+    icon {
+        fill: rgb(166, 45, 45);
+        stroke: royalblue;
+    }
+
+}
+@media (width < 600px) {
+    .neumorphicButton {
+        width: 40px;
+        height: 40px;
+        object-fit: fill;
+    }
+}
+
+.neumorphicButton:active {
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.25), inset -4px -4px 8px rgba(255, 255, 255, 0.7);
+}
