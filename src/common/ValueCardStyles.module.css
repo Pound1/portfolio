@@ -7,15 +7,11 @@
     background-color: var(--background-colour);
     margin: 20px;
 
-    img {
-        width: 50px;
-        height: 50px;        
+
+    svg {
+        width: 25px;
+        height: 25px;        
         border-radius: 24px;
-        object-fit: scale-down;
-        margin: 2px 0;
-        background-color: var(--background-colour);
-        box-shadow: inset 4px 4px 8px rgba(0, 0, 0, .25), inset -4px -4px 8px rgba(255, 255, 255, 0.7);
-        fill: black;
     }
 
     h3 {
@@ -27,4 +23,20 @@
         font-size: 10px;
         font-weight: 100;
     }
+}
+
+.indent {
+    /* This is the indented look for the icons within the Home page content. */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50px;
+    height: 50px;        
+    border-radius: 24px;
+    object-fit: scale-down;
+    margin: 2px 0;
+    background-color: var(--background-colour);
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, .25), inset -4px -4px 8px rgba(255, 255, 255, 0.7);
+   
 }
