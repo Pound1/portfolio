@@ -11,7 +11,7 @@ function Header() {
         <a href="/contact">Contact</a>
     </div>
     <div className={styles.resumeButton}>
-        <a href="#downloadResume">Resume</a>
+        <a href="#downloadResume">Resumé</a>
     </div>
 
     </section>

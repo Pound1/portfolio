@@ -1,5 +1,6 @@
 .content {
-    margin-top: 100px;
+        margin-top: 20vh;
+    margin-bottom: 10vh;
     display: flex;
     justify-self: center;
     flex-direction: column;
@@ -8,7 +9,6 @@
     width: 700px;
 
     h1 {
-        font-size: 48px;
         margin-bottom: 50px;
     }
 
@@ -37,6 +37,12 @@
         }
     }
 }
+
+.heroParagraph {
+        padding-left: 60px;
+        padding-right: 60px;
+}
+
 @media (width < 800px) {
     .content {
         width: 300px;

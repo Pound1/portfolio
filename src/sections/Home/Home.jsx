@@ -8,8 +8,8 @@ import PathIconSVG from '../../assets/PathIconSVG';
 function Home() {
   return (
     <section id="home" className={styles.content}>
-        <h1>About me</h1>
-        <p>Hey! I'm Lachy. Step into my portfolio, where you can see my interests, history and love for technology. For example, building this website - from design [Figma], to code [React] to sharing [FileShare]. 
+        <h1>About</h1>
+        <p className={styles.heroParagraph} >Hey! I'm Lachy. Step into my portfolio, where you can see my interests, history and love for technology. For example, building this website - from design [Figma], to code [React] to sharing [FileShare]. 
 Be curious, broaden your horizons and you might find something you didn’t know.</p>
     <div className={styles.contactButton}>
         <a href="/contact">Contact</a>
