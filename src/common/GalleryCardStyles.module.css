@@ -5,10 +5,11 @@
     width: 600px;
     height: 200px;
     margin-bottom: 25px;
+    animation: fadeIn 0.8s ease-in;
+
 }
 
 .imageBox {
-    background-color: lightgreen;
     height: 100%;
     width: 60%;
     display: flex;
@@ -45,4 +46,11 @@
     font-weight: 50;
     margin: 5px 0px;
     opacity: 30%;
+}
+
+
+/* keyframes */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }

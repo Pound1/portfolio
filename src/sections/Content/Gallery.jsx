@@ -10,7 +10,7 @@ const Gallery = () => {
         <div className={styles.content}>
             <h1>Gallery</h1>
             <GalleryCard img={soborgChair} title={'Soborg Chair'} subtitle={'Blender Tutorial'}
-            p={"An elegant design inspired by the iconic Soborg. Crafted using Blender, this 3D model showcases sleek lines and a modern aesthetic, perfect for contemporary interiors."}
+            p={"An elegant design inspired by the iconic Soborg. Crafted using Blender, this 3D model showcases sleek lines and a modern aesthetic, perfect for contemporary interiors."} 
             />
             <GalleryCard img={oxygenTank} title={'Oxygen Tank'} subtitle={'Blender Tutorial'}
             p={"This 3D model of an oxygen tank is meticulously designed in Blender, featuring realistic textures and details. Ideal for educational purposes or as a prop in various digital scenes."}

@@ -6,7 +6,7 @@ function Header() {
         
     <div className={styles.menuButtons}>
         <a href="/">Home</a>
-        <a href="/projects">Projects</a>
+        <a href="/history">History</a>
         <a href="/gallery">Gallery</a>
         <a href="/contact">Contact</a>
     </div>
