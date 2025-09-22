@@ -13,4 +13,4 @@ const GalleryCard = ( { img, title, subtitle, p }) => {
      );
 }
  
-export default GalleryCard;
+export default GalleryCard; 

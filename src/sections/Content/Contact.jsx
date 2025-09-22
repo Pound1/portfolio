@@ -8,7 +8,11 @@ import LinkedInIcon from '../../assets/LinkedInIcon';
 const Contact = () => {
     return ( 
         <section id="contact" className={styles.content}>
-            <h1>Let's connect.</h1>
+            <div className={styles.typewriter}>
+                <div>
+                    <h1>Let's connect.</h1>
+                </div>
+            </div>
             <div className={styles.contactButton}>
                 <NeuButton Icon={GmailIconSVG} />    
                 <NeuButton imageColour='#8db600' Icon={PhoneIconSVG} />    
