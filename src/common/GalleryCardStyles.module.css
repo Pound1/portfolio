@@ -6,7 +6,7 @@
     height: 200px;
     margin-bottom: 25px;
     animation: fadeIn 0.8s ease-in;
-
+    flex-direction: row;
 }
 
 .imageBox {
@@ -14,6 +14,20 @@
     width: 60%;
     display: flex;
     margin-right: 25px;
+
+}
+/* .container::nth-of-type(odd) {
+    flex-direction: row-reverse;
+} */
+
+.imageBox::nth-of-type(odd) {
+    justify-self: right;
+    flex-direction: row-reverse;
+}
+.infoBox::nth-of-type(odd) {
+    justify-self: left;
+    background-color: rgb(189, 115, 4);
+        flex-direction: row-reverse;
 
 }
 
