@@ -1,3 +1,5 @@
+import DownloadIcon from '../../assets/DownloadIcon';
+import ActionButton from '../../common/ActionButton';
 import styles from './HeaderStyles.module.css';
 
 function Header() {
@@ -11,7 +13,7 @@ function Header() {
         <a href="/contact">Contact</a>
     </div>
     <div className={styles.resumeButton}>
-        <a href="#downloadResume">Resumé</a>
+        <ActionButton label="Resume" Icon={DownloadIcon} />
     </div>
 
     </section>

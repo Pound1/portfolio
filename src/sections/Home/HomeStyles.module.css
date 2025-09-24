@@ -7,7 +7,7 @@
     align-items: center;
     font-size: calc(10px + 2vmin);
     width: 700px;
-    animation: fadeIn 0.6s ease-in;
+    animation: fadeIn 0.3s ease-in;
 
     h1 {
         margin-bottom: 50px;
@@ -58,7 +58,7 @@
 
     a {
         padding: 10px 20px;
-        font-size: 12px;  
+        font-size: 10px;  
         color: rgb(106, 123, 235, 100%);
         border: none;
         border-radius: 5px;
