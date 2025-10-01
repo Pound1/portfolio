@@ -7,6 +7,7 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: #202020;
+    animation: fadeIn 0.3s ease-in;
 
     h1 {
         margin-bottom:  10vh;
@@ -15,5 +16,23 @@
     p {
         width: 700px;
         text-align: center;
+    }
+}
+
+@media (width < 800px) {
+    .content {
+        margin-top: 50px;
+    }
+}
+
+@keyframes fadeIn { /* used for the page display */
+    0% {
+        transform: translateY(20px), scale(0.9);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px), scale(1);
+        opacity: 1;
     }
 }
