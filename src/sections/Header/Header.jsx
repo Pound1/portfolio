@@ -1,19 +1,26 @@
 import DownloadIcon from '../../assets/DownloadIcon';
 import ActionButton from '../../common/ActionButton';
 import styles from './HeaderStyles.module.css';
+import { NavLink } from 'react-router-dom';
 
 function Header() {
+  const navStyle = ({isActive}) => {
+    return {
+      color: isActive ? '#BC572A' : 'inherit',
+      textDecoration: isActive ? 'underline' : 'none'
+    };
+  };
   return (
     <section id="header" className={styles.container}>
         
     <div className={styles.menuButtons}>
-        <a href="/">Home</a>
-        <a href="/history">History</a>
-        <a href="/gallery">Gallery</a>
-        <a href="/contact">Contact</a>
+        <NavLink style={navStyle} to="/" exact>Home</NavLink>
+        <NavLink style={navStyle} to="/history">History</NavLink>
+        <NavLink style={navStyle} to="/gallery">Gallery</NavLink>
+        <NavLink style={navStyle} to="/contact">Contact</NavLink>
     </div>
     <div className={styles.resumeButton}>
-        <ActionButton label="Resume" Icon={DownloadIcon} />
+        <ActionButton label="Resumé" Icon={DownloadIcon} />
     </div>
 
     </section>
