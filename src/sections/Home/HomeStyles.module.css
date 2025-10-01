@@ -10,7 +10,8 @@
     animation: fadeIn 0.3s ease-in;
 
     h1 {
-        margin-bottom: 50px;
+        /* margin-bottom: 50px; */
+        margin-bottom:  10vh;
     }
 
     p {
@@ -48,6 +49,10 @@
     .content {
         width: 300px;
         margin-top: 50px;
+    }
+    .heroParagraph {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 

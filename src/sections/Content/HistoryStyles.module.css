@@ -7,6 +7,7 @@
     align-items: center;
     font-size: calc(10px + 2vmin);
     width: 700px;
+    animation: fadeIn 0.3s ease-in;
 
     h1 {
         margin-bottom:  10vh;
@@ -25,7 +26,7 @@
 
     li {
         color: var(--text-colour);
-        font-size: calc(5px + 1vmin);
+        /* font-size: calc(5px + 1vmin); */
         }
 
     li:nth-child(1) {
@@ -64,10 +65,26 @@
 
 .staggeredList li {
   opacity: 0; /* Start hidden */
-  animation: fadeIn 0.5s forwards; /* Apply the animation */
+  animation: staggerFadeIn 0.5s forwards; /* Apply the animation */
 }
 
-@keyframes fadeIn {
+@media (width < 800px) { /* TODO: overwrite this with a swipe capability */
+    .container {
+        flex-direction: column;
+    }
+}
+
+@media (width < 800px) {
+    .content {
+        width: 300px;
+        margin-top: 50px;
+    }
+    .divider {
+        width: 90%;
+    }
+}
+
+@keyframes staggerFadeIn { /* used for the li element */
   from {
     opacity: 0;
     transform: translateY(20px); /* Optional: add a slight upward movement */
@@ -76,4 +93,16 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+@keyframes fadeIn { /* used for the page display */
+    0% {
+        transform: translateY(20px), scale(0.9);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px), scale(1);
+        opacity: 1;
+    }
 }

@@ -40,7 +40,6 @@
     
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px -4px 8px rgba(255, 255, 255, 1);
 
-
     h2 {
         font-size: 16px;
         font-family: "Ledger", serif;
@@ -62,6 +61,27 @@
     opacity: 30%;
 }
 
+@media (width < 800px) {
+    .container {
+        flex-direction: column;
+        width: 300px;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .imageBox {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .infoBox {
+        width: 85%;
+        height: auto;
+        margin: 10px auto;
+    }
+}
 
 /* keyframes */
 @keyframes fadeIn {
