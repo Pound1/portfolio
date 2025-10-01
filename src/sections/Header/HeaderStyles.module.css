@@ -28,14 +28,13 @@
     }
     a:active {
         text-decoration: underline;
-        color: rgb(164, 123, 36);
+        color: #BC572A;
         font-weight: 500;
     }
 
-    /* a:visited { doesnt work.... >.<
-        text-decoration: underline;
-        color:#54230D;
-    } */
+    @media (width <= 800px) {
+        margin-left: 20px;
+    }
 }
 
 .resumeButton {
@@ -59,5 +58,9 @@
     a:hover {
         text-decoration: underline;
         color: rgb(171, 136, 62);
+    }
+
+    @media (width <= 800px) {
+        margin-right: 20px;
     }
 }

@@ -8,13 +8,14 @@ import Home from './sections/Home/Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
+  
   return (
     <Router>
     <div className="App">
       <Header />
       <div className="content">
         <Routes>
-          <Route exact path="/" Component={Home}/>
+          <Route exact path="/"  Component={Home}/>
           <Route path="/history" Component={History}/>
           <Route path="/gallery" Component={Gallery}/>
           <Route path="/contact" Component={Contact}/>
