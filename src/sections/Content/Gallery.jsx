@@ -2,7 +2,7 @@ import styles from './ProjectsStyles.module.css';
 import GalleryCard from '../../common/GalleryCard';
 import soborgChair from '../../assets/images/ChairSoborg_final.png';
 import oxygenTank from '../../assets/images/plant2.png';
-import pokeball from '../../assets/images/pokeball Render3.png';
+// import pokeball from '../../assets/images/pokeball Render3.png';
 import chessboard from '../../assets/images/Chessboard1.jpg';
 
 const Gallery = () => {
@@ -18,6 +18,9 @@ const Gallery = () => {
             <GalleryCard img={chessboard} title={'Chessboard'} subtitle={'Uni Assignment'}
             p={"A classic chessboard model created for a university assignment. This 3D representation highlights the intricate design of the board and pieces, demonstrating attention to detail and craftsmanship."}
             />
+            {/* <GalleryCard img={pokeball} title={'Pokeball'} subtitle={'Uni Assignment'}
+            p={"A detailed 3D model of a Pokeball, crafted for a university project. This model captures the iconic design with precision, making it a perfect addition to any Pokémon-themed digital collection."}
+            /> */}
         </div>
      );
 }

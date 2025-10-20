@@ -30,6 +30,10 @@
 
     }
 
+    b {
+        font-weight: bold;
+    }
+
     @media (width >= 800px) {
         .container {
             flex-direction: row;
@@ -47,7 +51,7 @@
 
 @media (width < 800px) {
     .content {
-        width: 300px;
+        width: 350px;
         margin-top: 50px;
     }
     .heroParagraph {

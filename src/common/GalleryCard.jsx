@@ -3,7 +3,7 @@ import styles from './GalleryCardStyles.module.css';
 const GalleryCard = ( { img, title, subtitle, p }) => {
     return ( 
         <div className={styles.container}>
-            <img className={styles.imageBox} src={img} alt="Gallery content" />
+            <img className={styles.imageBox} src={img} alt={`${title} content"`} />
             <div className={styles.infoBox}>
                 <h2>{title}</h2>
                 <h3 className={styles.subtitle}>{subtitle} </h3>

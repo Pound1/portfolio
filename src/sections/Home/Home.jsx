@@ -9,8 +9,7 @@ function Home() {
   return (
     <section id="home" className={styles.content}>
         <h1 >About</h1>
-        <p className={styles.heroParagraph} >Hey! I'm Lachy. Step into my portfolio, where you can see my interests, history and love for technology. For example, building this website - from design [Figma], to code [React] to sharing [FileShare]. 
-Be curious, broaden your horizons and you might find something you didn’t know.</p>
+        <p className={styles.heroParagraph}>I am a <b>digital Product Owner</b>, in ANZ bank’s technology division. I bring a wealth of delivery capability after <b>10 years of building out ANZ’s marquee banking apps</b>: for Android and iOS platforms. My strengths are leading customer-centric user experiences; prioritising workflow for delivery teams; and deploying resilient features to strict industry regulations. This allows me to provide ANZ’s apps with ergonomic & practical capabilities that drive adoption <b>(currently 1M+ downloads)</b> and success <b>(4.7 Play Store, 4.8 App Store ratings)</b>.</p>
     <div className={styles.contactButton}>
         <a href="/contact">Contact</a>
     </div>
@@ -25,7 +24,7 @@ Be curious, broaden your horizons and you might find something you didn’t know
         <ValueCard 
         Icon={lightbulbIcon}
         title={"Energy"} 
-        description={"Nam egestas lectus vel ante auctor dictum. Donec blandit, metus in dapibus aliquet, lorem lorem viverra ex, ac ullamcorper urna ante quis felis."}
+        description={"I bring a positive attitude to my work and life. I believe that a good attitude is contagious, and that it can help to create a more productive and enjoyable work environment."}
         // iconColour={"sandybrown"}
         iconColour={"#BC572A"}
         />
@@ -34,7 +33,7 @@ Be curious, broaden your horizons and you might find something you didn’t know
         // iconColour={"purple"} 
         iconColour={"#BC572A"}
         title={"Versatility"} 
-        description={"Jack of all trades doesn't quite tell the story: I've tackled many different roles - in life and work - and never afraid to fail."}
+        description={"I have a diverse skill set and am comfortable working in a variety of roles. I am a quick learner and am always willing to take on new challenges."}
         />
     </div>
     </section>

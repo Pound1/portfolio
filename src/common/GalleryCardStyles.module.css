@@ -14,11 +14,7 @@
     width: 60%;
     display: flex;
     margin-right: 25px;
-
 }
-/* .container::nth-of-type(odd) {
-    flex-direction: row-reverse;
-} */
 
 .imageBox::nth-of-type(odd) {
     justify-self: right;
