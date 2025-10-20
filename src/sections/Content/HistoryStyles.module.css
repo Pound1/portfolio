@@ -15,6 +15,7 @@
 
     p {
         text-align: center;
+        font-size: 12px;
     }
 
     ul {
@@ -26,7 +27,7 @@
 
     li {
         color: var(--text-colour);
-        /* font-size: calc(5px + 1vmin); */
+        font-size: 14px;
         }
 
     li:nth-child(1) {
@@ -68,12 +69,6 @@
   animation: staggerFadeIn 0.5s forwards; /* Apply the animation */
 }
 
-@media (width < 800px) { /* TODO: overwrite this with a swipe capability */
-    .container {
-        flex-direction: column;
-    }
-}
-
 @media (width < 800px) {
     .content {
         width: 300px;
@@ -81,6 +76,9 @@
     }
     .divider {
         width: 90%;
+    }
+    .container {
+        flex-direction: column;
     }
 }
 
