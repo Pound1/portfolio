@@ -16,6 +16,7 @@ function App() {
       <div className="content">
         <Routes>
           <Route exact path="/"  Component={Home}/>
+          <Route exact path="/portfolio"  Component={Home}/>
           <Route path="/history" Component={History}/>
           <Route path="/gallery" Component={Gallery}/>
           <Route path="/contact" Component={Contact}/>
