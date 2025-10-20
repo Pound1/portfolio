@@ -2,6 +2,7 @@ import DownloadIcon from '../../assets/DownloadIcon';
 import ActionButton from '../../common/ActionButton';
 import styles from './HeaderStyles.module.css';
 import { NavLink } from 'react-router-dom';
+import CV from '../../assets/files/Lachy_Pound_Resume_2025.pdf';
 
 function Header() {
   const navStyle = ({isActive}) => {
@@ -19,9 +20,9 @@ function Header() {
         <NavLink style={navStyle} to="/gallery">Gallery</NavLink>
         <NavLink style={navStyle} to="/contact">Contact</NavLink>
     </div>
-    <div className={styles.resumeButton}>
+    <a className={styles.resumeButton} href={CV} target="_blank" rel="noreferrer">
         <ActionButton label="Resumé" Icon={DownloadIcon} />
-    </div>
+    </a>
 
     </section>
   );
