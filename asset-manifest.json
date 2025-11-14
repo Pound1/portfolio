@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.dff92dc9.css",
-    "main.js": "/portfolio/static/js/main.39657ed4.js",
+    "main.js": "/portfolio/static/js/main.031635d4.js",
     "static/media/ChairSoborg_final.png": "/portfolio/static/media/ChairSoborg_final.4b79cffa0267ac9cc1ac.png",
     "static/media/plant2.png": "/portfolio/static/media/plant2.2783cae3701ad7ed600c.png",
     "static/media/Lachy_Pound_Resume_2025.pdf": "/portfolio/static/media/Lachy_Pound_Resume_2025.934ca5bc27595e1effb2.pdf",
     "static/media/Chessboard1.jpg": "/portfolio/static/media/Chessboard1.d1d8af7b7d3e9e9c5e2e.jpg",
     "index.html": "/portfolio/index.html",
     "main.dff92dc9.css.map": "/portfolio/static/css/main.dff92dc9.css.map",
-    "main.39657ed4.js.map": "/portfolio/static/js/main.39657ed4.js.map"
+    "main.031635d4.js.map": "/portfolio/static/js/main.031635d4.js.map"
   },
   "entrypoints": [
     "static/css/main.dff92dc9.css",
-    "static/js/main.39657ed4.js"
+    "static/js/main.031635d4.js"
   ]
 }
